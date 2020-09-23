@@ -1,0 +1,85 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css?family=Great+Vibes');
+.temizle{clear:both;}
+body{background:url(img/banner.png)}
+#container{margin:60px auto; width:1201px; height:auto; background-color:#fff; box-shadow: 0 0 6px 4px #CCC;}
+/*#icerik{min-height:514px;}*/
+#buton{position:fixed; right:5px; top:5px; border:1px solid black; border-radius:2px; width:37px; background-color:#FFC926; text-align:center; display:none; cursor:pointer;}
+#buton:hover{color:#F90;}
+#mobil{display:none;}
+#kabuk{display:none; text-align:center;}
+#kabuk img{width:200px;}
+#üst{display:none;}
+#sol{width:265px; float:left; display:block; /*border-right:2px solid black;*/}
+#logo{padding:30px}
+#logo img{ width:200px;}
+li{list-style-type:none;}
+li a{text-decoration:none; color:black;}
+#menü{margin-left:20px;}
+#menü ul li{padding:10px; width:140px;}
+#menü ul li a{line-height:20px; font-size:18px; margin-left:15px;}
+#menü ul li:hover{border-bottom:1px solid #FF530D; color:#FF530D;}
+#sag{left:25px; float:left; width:936px; margin-bottom:80px;}
+#hakkimizda{margin-top:150px; padding:10px;}
+#hakkimizda h1{font-family: 'Great Vibes', cursive; font-size:36px; margin-bottom:40px;}
+#blog{margin-top: 50px;}
+#iletisim{margin-left:20px; margin-top:55px;}
+#franch{font-family:sans-serif; padding:25px; margin-top:50px;}
+#franch .hey{ margin-right:15px; margin-bottom:10px;}
+input{width:80%; height:25px;}
+#yollandı{text-align:center;}
+#slider{border:1px solid gray; height:400px; width:800px; margin:30px auto 0;}
+#slider img{width:800px; height:400px;}
+#footer{width:100%; border-top:1px solid #F1F1F1; color:#999;}
+#footer ul{float:left; margin-bottom:2px;}
+#footer ul li{float:left;}
+#footer ul li a{color:#999;}
+#footer ul li:hover a{color:#E0BD62;}
+#footer p{margin-left:38px;}
+#footer p a{color:#E0BD62; font-size:18px;}
+#footer p a:hover{color:#999;}
+div.gallery {margin: 5px; border: 1px solid #ccc; float: left; width: 300px;}
+div.gallery:hover {border: 1px solid #777;}
+div.gallery img {width: 100%; height: 168px;}
+.card{margin-bottom: 15px !important;}
+@media only screen and (max-width: 1200px) {
+#container{margin:50px auto; width:1000px;}
+#sol{width:220px;}
+#logo{padding:20px}
+#logo img{ width:180px;}
+#menü {margin-left:0px;}
+#menü ul li{width:130px;}
+#sag{width:750px;}
+#slider{width:600px; margin:30px auto 0;}
+#slider img{width:600px;}
+}
+@media only screen and (max-width: 992px) {
+#container{margin:auto; width:792px;}
+/*#icerik{min-height:580px;}*/
+#üst{display:block; width:100%; float:left; border-bottom:1px solid #F1F1F1;}
+#ülogo{width:110px; float:left; padding:3px;}
+#ülogo img{width:110px;} 
+#ümenü{margin-left:80px;}
+#ümenü ul li{padding:10px; width:120px;}
+#ümenü ul li a{line-height:20px; font-size:18px; margin-left:15px;}
+#ümenü ul li:hover{border-bottom:1px solid #FF530D; color:#FF530D;} 
+#sol{display:none;}
+#sag{width:100%;}
+#slider{width:700px; margin:30px auto 0;}
+#slider img{width:700px;}
+#hakkimizda{margin-top:30px; margin-bottom:-30px;}
+}
+@media only screen and (max-width: 768px) {
+#container{margin:auto; width:100%;}
+/*#icerik{min-height:650px;}*/
+#buton{display:block; z-index: 55;}
+#mobil{margin-left:-30px; border-bottom:1px solid #F1F1F1;}
+#mobil ul li{padding:10px; display:block; width:120px; margin:auto; }
+#mobil ul li a{line-height:20px; font-size:18px; margin-left:15px;}
+#mobil ul li:hover{border-bottom:1px solid #FF530D; color:#FF530D;} 
+#üst{display:none;}
+#sag{margin-bottom:146px;}
+#kabuk{display:block; border-bottom:1px solid #F1F1F1;}
+#slider{width:90%; margin:30px auto 0;}
+#slider img{width:100%;}
+}
